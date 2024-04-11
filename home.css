@@ -1,0 +1,80 @@
+@media screen and (min-widhth:992px) {
+    .navbar, .container-fluid, .navbar-brand, .navbar-nav ,.nav-item, .navbar-expand-lg, .collapse {
+        flex-direction: column;
+    }
+
+}
+
+.container{
+ margin-left: 0;
+ padding-left: 0;
+
+}
+
+.navbar{
+    background-color: rgb(203, 199, 194);
+  width: 20%;
+  height: 100vh;
+  align-items: flex-start;
+
+  .container-fluid{
+    flex-direction: column;
+
+  }
+}
+
+.row{
+  position: absolute;
+  top: 10em;
+  left: 25em;
+}
+
+/* .btn{
+  background-color: rgb(59, 59, 58);
+} */
+
+.card{
+  position: relative;
+  margin-top: 10px;
+  padding: 60px;
+  padding-left: 0;
+  margin-left:0 ;
+}
+
+.text-title{
+  align-items: center;
+  /* padding-top: 50px;
+  padding-left: 30px;
+  margin-bottom: 30px; */
+}
+
+.nav-link{
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.navbar-brand{
+ padding-top: 30px;
+ font-size: 30px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+
+  /* padding-top: 20px; */
+  margin-top: 40px;
+  align-items: center;
+  background-color: rgb(183, 175, 162);
+}
+
+.text-body{
+  background-color: rgb(137, 135, 191);
+}
+
+.col{
+  /* background-color: rgb(6, 6, 145); */
+
+  .card{
+    background-color: rgb(177, 172, 233);
+  }
+}
