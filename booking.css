@@ -1,0 +1,22 @@
+.btn{
+    align-items: center;
+}
+
+
+.Table{
+    margin: 10px;
+    padding-right: 20rem;
+}
+
+
+.container{
+    position: relative;
+    
+}
+
+
+.mb-3{
+    .btn{
+     align-items: center;
+    }
+}

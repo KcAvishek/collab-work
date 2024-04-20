@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          
+        </div>
+        <div class="header-right">
+          logo
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-symbols-outlined">
+              restaurant
+              </span> Thakali Ghar
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          
+          <a id="dashboardLink" href="index.html">
+
+            <li class="sidebar-list-item">
+              <span class="material-icons-outlined">inventory_2</span> Dashbord
+          </li>
+
+          </a>
+       
+          
+          <a id="dashboardLink">
+          <li class="sidebar-list-item dropdown_btn">
+              <span class="material-icons-outlined">fact_check</span> Table
+              <div class="dropdown_options dropdown_show">
+                <a href="accepted.html"><p>Add</p> </a>
+                <a href="accepted.html"><p>Mannage</p> </a>
+               
+                
+              </div>
+            </li>
+         
+
+          <a id="dashboardLink">
+          <li class="sidebar-list-item dropdown_btn2">
+              <div class="flex">
+                <span class="material-symbols-outlined">library_books</span> Bookings
+              </div>
+             
+              <div class="dropdown_options2 dropdown_show">
+                <a href="accepted.html"><p>Accepted</p> </a>
+                <a href="accepted.html"><p>Rejected</p> </a>
+                <a href="accepted.html"><p>New Bookings</p> </a>
+               </div>
+          </li>
+          <li class="sidebar-list-item">
+            <a id="dashboardLink" href="table1.html">
+              <span class="material-icons-outlined">settings</span> Settings
+              
+            </li>
+          </a>
+          
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD</p>
+        </div>
+
+        <div class="main-cards">
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Admin panel</p>
+              <span class="material-symbols-outlined">
+                admin_panel_settings
+                </span>
+            </div>
+            <span class="text-primary font-weight-bold">249</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">All  Bookings</p>
+              <span class="material-symbols-outlined">
+                menu_book
+                </span>
+            </div>
+            <span class="text-primary font-weight-bold">83</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary"> New Bookings</p>
+              <span class="material-symbols-outlined">
+                bookmark_add
+                </span>
+            </div>
+            <span class="text-primary font-weight-bold">83</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Accepted Bookings</p>
+              <span class="material-symbols-outlined">
+                book
+                </span>
+              
+            </div>
+            <span class="text-primary font-weight-bold">56</span>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Rejected Bookings</p>
+              <span class="material-symbols-outlined">
+                bookmark_remove
+                </span>
+                
+                </span>
+            </div>
+            <span class="text-primary font-weight-bold">56</span>
+          </div>
+
+        </div>
+
+        <div class="charts">
+
+          
+        </div>
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
