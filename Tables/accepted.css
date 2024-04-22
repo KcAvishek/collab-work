@@ -1,0 +1,25 @@
+#container{
+ background-color: rgb(230, 220, 220);
+ margin: 30px;
+ padding:20px;
+}
+
+.btn{
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.pagination{
+  color: black;
+  justify-content: flex-end;
+}
+
+.form-control{
+ margin-left: 75rem;
+ margin-bottom: 20px;
+
+}
+
+.btn{
+  margin-bottom: 20px;
+}
