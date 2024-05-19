@@ -18,7 +18,7 @@ require 'log&sign/logindata.php'
 <body>
     <!-- ----------login html----------- -->
     <div class="login">
-        <h1>Login </h1>
+        <h1>Login </h1>  
         <form method="post"> 
             <label>Email</label>
             <input type="email" name="email" required> 
@@ -27,6 +27,7 @@ require 'log&sign/logindata.php'
                 <input type="password" id ="password" name="pass" required> 
             </div> 
             <input type="submit" name="submit" value="Submit"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, libero.</p>
         </form>
         <p>Not have an account? <a href="signup.php" style="text-decoration: none;">Sign up Here</a><p>
     </div>
